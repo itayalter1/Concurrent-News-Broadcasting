@@ -55,7 +55,7 @@ If you are using **Linux** or **Windows with WSL** (Windows Subsystem for Linux)
 4. Compile and run the project:
    ```bash
    make
-   ./ex4.out config.txt
+   ./brodcast.out config.txt
    ```
    
 You can use different configuration files (`config1.txt`, `config2.txt`, `config3.txt`) to simulate different producer setups.

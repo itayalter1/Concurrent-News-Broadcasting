@@ -1,4 +1,3 @@
-הנה ה-README המעודכן עם החלק שציינת:
 
 ---
 
@@ -117,4 +116,3 @@ For questions or suggestions, feel free to reach out:
 
 ---
 
-כעת ה-README כולל את כל ההסברים כיצד להריץ את הפרויקט על לינוקס, WSL ו-Windows.

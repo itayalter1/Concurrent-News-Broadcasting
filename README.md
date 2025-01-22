@@ -1,3 +1,4 @@
+הנה ה-README המעודכן עם החלק שציינת:
 
 ---
 
@@ -18,37 +19,50 @@ The system consists of four types of participants:
 
 ---
 
-## **How to Run the Simulation**
+## **How to Run the Project**
 
 ### **Prerequisites**
 
-Make sure you have the following:
+Before running the project, ensure that you have the following tools installed:
 
-1. **C++ Compiler:** Ensure you have a working C++ compiler like g++ or clang.
-2. **Make:** Make sure `make` is installed to build the project using the provided Makefile.
+1. **C++ Compiler:**
+   - **Linux:** You need `g++` to compile the project.
+   - **Windows:** If you are using Windows, we recommend using WSL (Windows Subsystem for Linux) for a seamless development experience.
+
+---
 
 ### **Steps to Run the Program**
 
-#### **Step 1: Clone the Repository**
-Clone the repository to your local machine:
-```bash
-git clone https://github.com/itayalter1/Concurrent-News-Broadcasting.git
-```
+#### **Option 1: Running on Linux or WSL**
+If you are using **Linux** or **Windows with WSL** (Windows Subsystem for Linux), follow these steps:
 
-#### **Step 2: Compile the Program**
-Navigate to the project directory and compile the program:
-```bash
-cd Concurrent-News-Broadcasting
-make
-```
+1. Install the necessary dependencies:
+   - For **Linux** or **WSL**:
+     ```bash
+     sudo apt update
+     sudo apt install g++ make
+     ```
 
-#### **Step 3: Run the Simulation**
-Run the program with a configuration file as a command-line argument:
-```bash
-./ex4.out config1.txt
-```
+2. Clone the repository:
+   ```bash
+   git clone https://github.com/itayalter1/Concurrent-News-Broadcasting.git
+   ```
 
+3. Navigate to the project directory:
+   ```bash
+   cd Concurrent-News-Broadcasting
+   ```
+
+4. Compile and run the project:
+   ```bash
+   make
+   ./ex4.out config.txt
+   ```
+   
 You can use different configuration files (`config1.txt`, `config2.txt`, `config3.txt`) to simulate different producer setups.
+**Note**: This option is recommended for **Linux** or **WSL** users.
+
+---
 
 ### **Configuration File Format**
 
@@ -103,3 +117,4 @@ For questions or suggestions, feel free to reach out:
 
 ---
 
+כעת ה-README כולל את כל ההסברים כיצד להריץ את הפרויקט על לינוקס, WSL ו-Windows.

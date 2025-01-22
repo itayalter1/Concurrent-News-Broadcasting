@@ -1,7 +1,7 @@
 CC = g++
 CFLAGS = -pthread -std=c++11 -g
 
-all: ex4.out
+all: brodcast.out
 
 ex4.out: main.o BoundedBuffer.o Producer.o Dispatcher.o CoEditor.o ScreenManager.o
 	$(CC) $(CFLAGS) -o ex4.out main.o BoundedBuffer.o Producer.o Dispatcher.o CoEditor.o ScreenManager.o
